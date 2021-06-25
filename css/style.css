@@ -46,6 +46,7 @@ table {
 
 /*------------------------form---------------------------*/
 .wrapper {
+	margin: 0 auto
     width: 600px;
     height: 600px;
     background-color: rgb(146, 240, 196);
