@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*------------------------form---------------------------*/
+.wrapper {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(146, 240, 196);
+	padding: 50px 0 30px 100px;
+}
+.wrapper * {
+	outline: none
+}
+.textarea {
+	min-width: 400px;
+	min-height: 200px;
+	border: thick double red;
+	box-shadow: 5px -5px 5px 0px #F7F2F7, 5px -5px 5px 0px #45C4F7, 5px -5px 5px 0px #A8D3A7, 5px -5px 5px 0px #EDA8DA, 5px -10px 45px 0px #D7D875,	5px -5px 5px 0px #6E8980, 5px -5px 5px 0px #A359B7;
+	background-color: rgb(154, 231, 231);
+}
+.textarea::-webkit-input-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: large;
+}
+.textarea::-moz-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: large;
+}
+.textarea:-moz-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: large;
+}
+.textarea:-ms-input-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: large;
+}
+.select {
+	display: block;
+	margin: 50px 0 50px 150px;
+	border: 2px dotted blue;
+	background: rgb(255, 251, 0) url(../../sprites/cool2.png) 94% 0 no-repeat;
+	-webkit-appearance: none;	
+  	-moz-appearance: none;
+  	appearance: none;
+	width: 100px;
+	height: 37px;
+}
+.text {
+	display: block;
+	width: 200px;
+	margin: 0 96px;
+}
+.text::-webkit-input-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: medium;
+}
+.text::-moz-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: medium;
+}
+.text:-moz-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: medium;
+}
+.text:-ms-input-placeholder {
+	color:red;
+	text-transform: uppercase;
+	font-size: medium;
+}
+.text:focus {
+	background: olivedrab;
+	border: 2px dashed rgb(60, 255, 0);
+}
+.taste {
+	display: inline-block;
+	position: relative;
+	margin: 32px 169px;
+}
+.whiskey {
+	position: absolute;
+	text-transform: uppercase;
+	top: 0;
+    left: -80px;
+	color: rgb(255, 102, 0);
+}
+.beer {
+	position: absolute;
+	text-transform: uppercase;
+	top: 0;
+    left: 100px;
+	color: rgb(255, 102, 0);
+}
+.choice-1 {
+	position: absolute;
+	top: 16px;
+    left: -55px;
+}
+.choice-2 {
+	position: absolute;
+	top: 16px;
+    left: 107px;
+}
