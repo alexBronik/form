@@ -85,7 +85,7 @@ table {
 	display: block;
 	margin: 50px 0 50px 150px;
 	border: 2px dotted blue;
-	background: rgb(255, 251, 0) url(../../sprites/cool2.png) 94% 0 no-repeat;
+	background: rgb(255, 251, 0) url(../sprites/cool2.png) 94% 0 no-repeat;
 	-webkit-appearance: none;	
   	-moz-appearance: none;
   	appearance: none;
