@@ -175,7 +175,7 @@ input[type="checkbox"] + label::before {
 	top: -10%;
     left: -12%;
 	border-radius: 20%;
-	background: rgb(1, 250, 105) url(../../sprites/radio-checked2.png) 0 no-repeat;
+	background: rgb(1, 250, 105) url(../sprites/radio-checked2.png) 0 no-repeat;
 	transition: background-position 0.5s ease;
 }
 input:checked + label::before {
